@@ -1,4 +1,4 @@
-<img width="705" height="375" alt="image" src="https://github.com/user-attachments/assets/db7d0670-1b69-4dc5-8eb0-d1f7f938afab" /># CH 5 플러스 Spring 과제
+# CH 5 플러스 Spring 과제
 
 > # [Spring 2기] CH 5 플러스 Spring 과제
 
