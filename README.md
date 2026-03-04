@@ -213,9 +213,35 @@ public class Todo extends Timestamped {
 - 닉네임 검색<img width="2042" height="1046" alt="image" src="https://github.com/user-attachments/assets/76212813-b94e-4ff9-9bcc-05f1c5fdf467" />
 
 
+---
+
+## [LV3-2. Transaction 심화]
+
+- 매니저 등록 요청을 기록하는 로그 테이블을 만들어주세요.
+    - DB 테이블명: `log`
+- 매니저 등록과는 별개로 로그 테이블에는 항상 요청 로그가 남아야 해요.
+    - 매니저 등록은 실패할 수 있지만, 로그는 반드시 저장되어야 합니다.
+    - 로그 생성 시간은 반드시 필요합니다.
+    - 그 외 로그에 들어가는 내용은 원하는 정보를 자유롭게 넣어주세요.
+ 
+
+- 성공 케이스<img width="2445" height="1033" alt="image" src="https://github.com/user-attachments/assets/4b53c8d6-7369-458f-bb79-8c7058cbf148" />
+
+- 성공 로그<img width="983" height="180" alt="image" src="https://github.com/user-attachments/assets/b575c4e1-1b37-47d7-b036-ff35cd72448b" />
+
+- 실패 케이스<img width="2415" height="1032" alt="image" src="https://github.com/user-attachments/assets/559caa0c-b130-4ece-a7ce-93fc96c4830e" />
+
+- 최종 로그<img width="1093" height="340" alt="image" src="https://github.com/user-attachments/assets/25b44663-3463-4944-bca6-4798e4aa3120" />
+
+
+
+
+
 
 
 ---
+
+
 ### 트러블 슈팅
 
 > ####  
