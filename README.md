@@ -185,6 +185,35 @@ public class Todo extends Timestamped {
 - 관리자가 권한 변경 시<img width="1951" height="813" alt="image" src="https://github.com/user-attachments/assets/bf90b95f-4604-4eae-a4ea-d753d429c5f7" />
 
 
+---
+
+# ✅ 도전 기능
+
+## [LV3-1. QueryDSL을 사용하여 검색 기능 만들기]
+
+- 새로운 API로 만들어주세요.
+- 검색 조건은 다음과 같아요.
+    - 검색 키워드로 일정의 제목을 검색할 수 있어요.
+        - 제목은 부분적으로 일치해도 검색이 가능해요.
+    - 일정의 생성일 범위로 검색할 수 있어요.
+        - 일정을 생성일 최신순으로 정렬해주세요.
+    - 담당자의 닉네임으로도 검색이 가능해요.
+        - 닉네임은 부분적으로 일치해도 검색이 가능해요.
+- 다음의 내용을 포함해서 검색 결과를 반환해주세요.
+    - 일정에 대한 모든 정보가 아닌, 제목만 넣어주세요.
+    - 해당 일정의 담당자 수를 넣어주세요.
+    - 해당 일정의 총 댓글 개수를 넣어주세요.
+- 검색 결과는 페이징 처리되어 반환되도록 합니다.
+
+
+- 데이터<img width="1505" height="304" alt="image" src="https://github.com/user-attachments/assets/dded770c-93b9-4401-8859-4e4a0685f809" />
+
+- 키워드 검색<img width="2388" height="1345" alt="image" src="https://github.com/user-attachments/assets/794428d5-99a8-4789-9ff8-0657a69e154a" />
+
+- 닉네임 검색<img width="2042" height="1046" alt="image" src="https://github.com/user-attachments/assets/76212813-b94e-4ff9-9bcc-05f1c5fdf467" />
+
+
+
 
 ---
 ### 트러블 슈팅
